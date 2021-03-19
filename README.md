@@ -7,56 +7,62 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## GIC API
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+GIC API merupakan REST API untuk kebutuhan test saya untuk crud data contact berikut step instalasinya :
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Pastikan composer telah terinstall
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Jalankan command berikut pada directory project ini dilocal berikut commandnya.
 
-## Learning Laravel
+```php
+composer install
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Ubah .env.example menjadi .env.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Buat database baru pada mysql dengan nama database **gic** (*****bisa disesuaikan)
 
-## Laravel Sponsors
+- Update konfigurasi database pada file .env update DB_DATABASE dengan **gic** database yang sudah dibuat atau dengan nama lain sesuai dengan nama database yang dibutuhkan.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```php
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=gic
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
-### Premium Partners
+- Jalankan perintah artisan berikut commandnya.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+```php
+php php artisan config:cache
+php artisan migrate
+php artisan db:seed
+```
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## Running Valet Service
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Laravel valet (selanjutnya disebut valet saja) merupakan lingkungan kerja untuk membangun aplikasi berbasis web, dari namanya jelas ini secara khusus ditujukan untuk *developer* yang sedang bekerja menggunakan *framework* Laravel meski tidak menutup untuk beberapa platform php [lainnya](https://laravel.com/docs/8.x/valet#introduction).
 
-## Security Vulnerabilities
+Ketika valet terpasang, web server yang akan terpasang adalah [Nginx](https://www.nginx.com/), valet juga akan memasang [dnsmasq](https://en.wikipedia.org/wiki/Dnsmasq), ini yang memungkinkan kita memiliki satu nama untuk sebuah *project* kita yang secara *default* berakhiran .test (dot test).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Laravel valet untuk kebutuh test API GIC sebagai REST api pada repository saya di [GIC Mobile](https://github.com/kangyasin/gic-mobile), jalankan command berikut :
+
+`valet share`
+
+Otomatis akan dibuatkan link public dimana pc kita sebagai servernya misalnya pada valet saya adalah link publicnya :
+
+`http://e6c034d5561e.ngrok.io atau https://e6c034d5561e.ngrok.io`
+
+Yang akan mengarahkan aksesnya langsung ke pc atau laptop kita lalu set pada ConfigNetwork di repor [GIC Mobile](https://github.com/kangyasin/gic-mobile)
+
+
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
