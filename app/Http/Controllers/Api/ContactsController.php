@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Api;
 use App\Helpers\ResponseHelper;
 use App\Http\Requests\Contact\NewContactRequest;
 use App\Http\Requests\Contact\UpdateContactRequest;
-use App\Models\Client\Shift\Shift;
 use App\Models\Contacts;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
