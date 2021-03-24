@@ -20,6 +20,9 @@ $uri_segment2 = request()->segment(2);
             <li class="nav-item {{ $uri_segment2 === 'user-activity' ? 'active':'' }}">
                 <a class="nav-link" href="{{ url('/admin/user-activity') }}">User Activity</a>
             </li>
+            <li class="nav-item {{ $uri_segment === '~artisan' ? 'active':'' }}">
+                <a class="nav-link" href="{{ url('/~artisan') }}">Artisan Command</a>
+            </li>
             <li class="nav-item {{ $uri_segment === 'login' ? 'active':'' }}">
                 <a class="nav-link" href="{{ url('/login') }}">Login</a>
             </li>

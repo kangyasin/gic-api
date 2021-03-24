@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46f0da9-fba2-4c4b-9952-535b0bf681ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/artisan-gui.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/artisan-gui/gui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/artisan-gui/gui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gic-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gic-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +136,14 @@
       <path value="$PROJECT_DIR$/vendor/haruncpi/laravel-user-activity" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/lab404/laravel-impersonate" />
+      <path value="$PROJECT_DIR$/vendor/infureal/artisan-gui" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/clue/term-react" />
+      <path value="$PROJECT_DIR$/vendor/clue/stdio-react" />
+      <path value="$PROJECT_DIR$/vendor/clue/utf8-react" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-cronless-schedule" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pwiaWxuk13LAg1TVHFd4xuBn8A" />
@@ -171,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616100617087</updated>
       <workItem from="1616100619016" duration="14951000" />
-      <workItem from="1616555560264" duration="1121000" />
+      <workItem from="1616555560264" duration="1633000" />
     </task>
     <servers />
   </component>
