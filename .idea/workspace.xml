@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46f0da9-fba2-4c4b-9952-535b0bf681ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/telescope-toolbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/telescope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gic-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gic-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +148,8 @@
       <path value="$PROJECT_DIR$/vendor/clue/utf8-react" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-cronless-schedule" />
       <path value="$PROJECT_DIR$/vendor/haruncpi/laravel-db-backup" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-telescope-toolbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pwiaWxuk13LAg1TVHFd4xuBn8A" />
@@ -184,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616100617087</updated>
       <workItem from="1616100619016" duration="14951000" />
-      <workItem from="1616555560264" duration="2356000" />
+      <workItem from="1616555560264" duration="3181000" />
     </task>
     <servers />
   </component>

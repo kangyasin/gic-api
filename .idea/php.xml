@@ -120,6 +120,8 @@
       <path value="$PROJECT_DIR$/vendor/clue/utf8-react" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-cronless-schedule" />
       <path value="$PROJECT_DIR$/vendor/haruncpi/laravel-db-backup" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-telescope-toolbar" />
     </include_path>
   </component>
   <component name="PhpUnit">
