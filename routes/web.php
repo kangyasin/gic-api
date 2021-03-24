@@ -25,3 +25,7 @@ Route::group(['prefix' => 'contacts'], function () {
     Route::put('/ubah/{id}', [ContactsController::class, 'update']);
     Route::delete('/hapus/{id}', [ContactsController::class, 'destroy']);
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
