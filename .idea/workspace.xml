@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46f0da9-fba2-4c4b-9952-535b0bf681ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/telescope-toolbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/telescope.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/telescope/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gic-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gic-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616100617087</updated>
       <workItem from="1616100619016" duration="14951000" />
-      <workItem from="1616555560264" duration="3181000" />
+      <workItem from="1616555560264" duration="3841000" />
     </task>
     <servers />
   </component>
@@ -210,9 +201,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.23.1440.877@0.23.1440.877" timestamp="1616139920244" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1616140202134">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1616650738201">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1616140202134" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1616650738201" />
   </component>
 </project>
